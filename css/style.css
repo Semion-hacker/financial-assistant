@@ -1,0 +1,1255 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    background: linear-gradient(to right, #B8A9FC, #84CDEB, #C2B5FB, #BFC7E2, #C2B5FB);
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    display: contents;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.header {
+    display: flex;
+    width: 1440px;
+    height: 220px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.wrapper_logo {
+    display: flex;
+    width: 470px;
+    justify-content: space-between;
+    margin-left: 61px;
+    align-items: center;
+    height: 220px;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+}
+
+.wrapper_logo_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 264px;
+    height: 130px;
+}
+
+.logo_text1 {
+    color: #0AC8FA;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 67px;
+}
+
+.logo_text2 {
+    color: white;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper_balance {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 615px;
+    margin-right: 29px;
+}
+
+.wrapper_icon {
+    margin-top: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.balance_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 134px;
+    gap: 15px;
+}
+
+.balance_wrapper_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 134px;
+    gap: 15px;
+}
+
+.balance {
+    color: #0AC8FA;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.balance_quantity {
+    color: white;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.currency_selection {
+    background-color: #8860D0;
+    border-radius: 10px;
+    width: 128px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    border:0px;
+    outline:0px;
+}
+
+.currency {
+    color: white;
+    font-size: 24px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    display: flex;
+    width: 1440px;
+    height: 804px;
+}
+
+.main_section1 {
+    width: 500px;
+    height: 804px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main_section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 940px;
+    height: 804px;
+}
+
+.section1_wrapper {
+    width: 500px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer {
+    width: 500px;
+    height: 599px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper_meme {
+    width: 296px;
+    height: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.meme1 {
+    width: 296px;
+    height: 223px;
+}
+
+.wrapper_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    color: white;
+    font-size: 24px;
+    font-family: "Jua", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 44px;
+}
+
+.phone_number {
+    color: white;
+    font-size: 24px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 0.5px black;
+    height: 20px;
+}
+
+.wrapper_social_media_icons {
+    width: 430px;
+    display: flex;
+    height: 70px;
+    gap: 20px;
+    margin-top: 44px;
+}
+
+.social_icons {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social_icons:hover {
+    scale: 1.15;
+}
+
+.site_info {
+    color: white;
+    font-size: 36px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 24px;
+}
+
+.income_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 36px;
+    color: #0AC8FA;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 5px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+    transition: 0.5s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.income_button:hover {
+    scale: 1.07;
+}
+
+.consumption_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 36px;
+    color: #0AC8FA;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 5px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+    transition: 0.5s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.consumption_button:hover {
+    scale: 1.07;
+}
+
+.wrapper_filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    height: 45px;
+    padding-bottom: 5px;
+}
+
+.wrapper_history {
+    width: 800px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter1 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 27px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.filter1:hover {
+    scale: 1.14;
+}
+
+.filter2 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 27px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.filter2:hover {
+    scale: 1.14;
+}
+
+.filter3 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 27px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.filter3:hover {
+    scale: 1.14;
+}
+
+.filter4 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 27px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.filter4:hover {
+    scale: 1.14;
+}
+
+.filter5 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 27px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.filter5:hover {
+    scale: 1.14;
+}
+
+.filter6 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 27px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.filter6:hover {
+    scale: 1.14;
+}
+
+.history_text {
+    font-size: 48px;
+    color: rgba(0, 254, 251, 0.4);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    -webkit-text-stroke: 2px #8860D0;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 560px;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.income_example {
+    width: 750px;
+    height: 115px;
+    background-color: #5580E9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.history_information {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    height: 115px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px 0 0 20px;
+}
+
+.category_in_history_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 510px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px 0 0 0;
+    border-bottom: 2px solid #0AC8FA;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.description_in_history_wrapper {
+    width: 500px;
+    height: 65px;
+    border-radius: 0 0 0 20px;
+    border-top: 1px solid #0AC8FA;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-left: 5px;
+    display: flex;
+}
+
+.history_date {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    margin-left: 423px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.money_wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.amount_of_money {
+    font-size: 42px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+.cross_history {
+    width: 12px;
+    position: absolute;
+    margin-bottom: 70px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.cross_history:hover {
+    scale: 1.1;
+}
+
+.arrow {
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.arrow_income {
+    color: #00FF57;
+}
+
+.arrow_consumption {
+    color: red;
+}
+
+.validation {
+    color: red;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 5px;
+    align-self: flex-start;
+    margin-left: 25px;
+    position: absolute;
+    z-index: 25;
+}
+
+.validation_email_rg {
+    margin-top: 192px;
+}
+
+.validation_password_rg {
+    margin-top: 296px;
+}
+
+.validation_email {
+    margin-top: 192px;
+}
+
+.validation_password {
+    margin-top: 296px;
+}
+
+
+
+.wrapper_initial_balance {
+    z-index: 21;
+    position: absolute;
+    width: 538px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #B8A9FC, #84CDEB, #C2B5FB, #BFC7E2, #C2B5FB);
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+}
+
+.balance_text {
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+.ok_button {
+    cursor: pointer;
+    width: 340px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #0AC8FA;
+    background-color: #000000;
+    border-radius: 18px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+    transition: 0.5s;
+}
+
+.ok_button:hover {
+    scale: 1.07;
+}
+
+.amount_of_money_input {
+    background-color: #D9D9D9;
+    height: 60px;
+    width: 231px;
+    color: #000000;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.login_modal_window {
+    z-index: 21;
+    position: absolute;
+    width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #B8A9FC, #84CDEB, #C2B5FB, #BFC7E2, #C2B5FB);
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+}
+
+.wrapper_input_selection_buttons {
+    display: flex;
+    width: 430px;
+    height: 80px;
+}
+
+.login_button {
+    width: 215px;
+    height: 80px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.registration_button {
+    width: 215px;
+    height: 80px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 0 16px 0 25px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.registration_button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #3d3d3d;
+}
+
+.email_input_field {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 45px;
+    width: 380px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+}
+
+.password_input_field {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 230px;
+    width: 380px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    align-self: center;
+    position: absolute;
+}
+
+.submit_button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 70px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #000000;
+    color: #0AC8FA;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+    margin-top: 339px;
+    border-radius: 18px;
+    position: absolute;
+    align-self: center;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.submit_button:hover {
+    scale: 1.07;
+}
+
+
+
+.registration_modal_window {
+    z-index: 21;
+    position: absolute;
+    width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #B8A9FC, #84CDEB, #C2B5FB, #BFC7E2, #C2B5FB);
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+}
+
+.wrapper_input_selection_buttons_registration {
+    display: flex;
+    width: 430px;
+    height: 80px;
+}
+
+.login_button_registration {
+    width: 215px;
+    height: 80px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    color: #909090;
+    border-radius: 16px 0 25px 0;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login_button_registration:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #3d3d3d;
+}
+
+.registration_button_registration {
+    width: 215px;
+    height: 80px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.email_input_field_registration {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 45px;
+    width: 380px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    align-self: center;
+}
+
+.password_input_field_registration {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 230px;
+    width: 380px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    position: absolute;
+    align-self: center;
+}
+
+.submit_button_registration {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 70px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #000000;
+    color: #0AC8FA;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+    margin-top: 339px;
+    border-radius: 18px;
+    position: absolute;
+    align-self: center;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.submit_button_registration:hover {
+    scale: 1.07;
+}
+
+
+
+.income_form {
+    z-index: 21;
+    position: absolute;
+    width: 500px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #B8A9FC, #84CDEB, #C2B5FB, #BFC7E2, #C2B5FB);
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+}
+
+.income_form_text {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 188px;
+}
+
+.income_form_header {
+width: 500px;
+height: 63px;
+display: flex;
+align-items: center;
+}
+
+.income_form_cross {
+width: 25px;
+height: 25px;
+margin-left: 155px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.income_form_cross:hover {
+scale: 1.2;
+}
+
+.field_category {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 400px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+}
+
+.description_field {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 400px;
+    height: 230px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+    resize: none;
+}
+
+.date_field {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 390px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+    color: #757575;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.wrapper_send_the_amount {
+    margin-top: 20px;
+    width: 415.2px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.income_amount_input {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 190px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+}
+
+.submit_income_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 65.2px;
+    border-radius: 10px;
+    background-color: #5580E9;
+    color: #00247D;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.submit_income_button:hover {
+    scale: 1.05;
+}
+
+
+
+.expense_form {
+    z-index: 21;
+    position: absolute;
+    width: 500px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #B8A9FC, #84CDEB, #C2B5FB, #BFC7E2, #C2B5FB);
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px rgb(10, 200, 250);
+}
+
+.expense_form_text {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    margin-left: 177px;
+    margin-top: 10px;
+}
+
+.expense_form_header {
+    width: 500px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+}
+
+.expense_form_cross {
+    width: 25px;
+    height: 25px;
+    margin-left: 150px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.expense_form_cross:hover {
+    scale: 1.2;
+}
+
+.expense_field_category {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 400px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+}
+
+.expense_description_field {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 400px;
+    height: 230px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+    resize: none;
+}
+
+.expense_date_field {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 18px;
+    width: 390px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+    color: #757575;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.wrapper_send_expense_amount {
+    margin-top: 20px;
+    width: 415.2px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expense_amount_input {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 190px;
+    height: 60px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+}
+
+.submit_expense_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 65.2px;
+    border-radius: 10px;
+    background-color: #5580E9;
+    color: #00247D;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.submit_expense_button:hover {
+    scale: 1.05;
+}
+
+
+
+.background_income_form {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+
+.background_expense_form {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+
+.background_login_modal_window {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+
+.background_registration_modal_window {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}
+
+.background_initial_balance {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 20;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+</head>
+<body class="body">
+    
+
+    <div class="background_income_form">
+        <div class="income_form">
+            <div class="income_form_header">
+                <span class="income_form_text">доход</span>
+                <img class="income_form_cross" src="img/cross.png" alt="cross">
+            </div>
+            <form>
+                <input class="field_category" type="text" placeholder="Категория">
+            </form>
+            <form>
+                <textarea class="description_field" type="text" placeholder="Описание..."></textarea>
+            </form>
+            <form>
+                <input class="date_field" type="date" name="Date" id="davaToday">
+            </form>
+            <div class="wrapper_send_the_amount">
+                <form>
+                    <input class="income_amount_input" type="number" placeholder="Сумма">
+                </form>
+                <div class="submit_income_button">
+                    отправить
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="background_expense_form">
+        <div class="expense_form">
+            <div class="expense_form_header">
+                <span class="expense_form_text">расход</span>
+                <img class="expense_form_cross" src="img/cross.png" alt="cross">
+            </div>
+            <form>
+                <input class="expense_field_category" type="text" placeholder="Категория">
+            </form>
+            <form>
+                <textarea class="expense_description_field" type="text" placeholder="Описание..."></textarea>
+            </form>
+            <form>
+                <input class="expense_date_field" type="date" name="Date" id="davaToday">
+            </form>
+            <div class="wrapper_send_expense_amount">
+                <form>
+                    <input class="expense_amount_input" type="number" placeholder="Сумма">
+                </form>
+                <div class="submit_expense_button">
+                    отправить
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="background_login_modal_window">
+        <div class="login_modal_window">
+            <div class="wrapper_input_selection_buttons">
+                <div class="login_button">
+                    вход
+                </div>
+                <div class="registration_button">
+                    регистрация
+                </div>
+            </div>
+            <form class="form">
+                <input class="email_input_field" type="email" placeholder="E-mail">
+            </form>
+            <span class="validation validation_email"></span>
+            <form class="form">
+                <input class="password_input_field" type="text" placeholder="Пароль">
+            </form>
+            <span class="validation validation_password"></span>
+            <div class="submit_button">
+                Войти
+            </div>
+        </div>
+    </div>
+
+
+    <div class="background_registration_modal_window">
+        <div class="registration_modal_window">
+            <div class="wrapper_input_selection_buttons_registration">
+                <div class="login_button_registration">
+                    вход
+                </div>
+                <div class="registration_button_registration">
+                    регистрация
+                </div>
+            </div>
+            <form class="form">
+                <input class="email_input_field_registration" type="text" placeholder="E-mail">
+            </form>
+            <span class="validation validation_email_rg"></span>
+            <form class="form">
+                <input class="password_input_field_registration" type="text" placeholder="Пароль">
+            </form>
+            <span class="validation validation_password_rg"></span>
+            <div class="submit_button_registration">
+                Зарегистрироваться
+            </div>
+        </div>
+    </div>
+
+
+    <div class="background_initial_balance">
+        <div class="wrapper_initial_balance">
+            <div class="balance_wrapper_2">
+                <span class="balance_text">Ваш баланс:</span>
+                <form>
+                    <input class="amount_of_money_input" type="number" placeholder="BYN">
+                </form>
+            </div>
+            <div class="ok_button">OK</div>
+        </div>
+    </div>
+
+
+    <header class="header">
+        <div class="wrapper_logo">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <div class="wrapper_logo_text">
+                <span class="logo_text1">Financial</span>
+                <span class="logo_text2">assistant</span>
+            </div>
+        </div>
+        <div class="wrapper_balance">
+            <div class="wrapper_icon">
+                <img class="icon" src="img/icon.png" alt="icon">
+            </div>
+            <div class="balance_wrapper">
+                <span class="balance">
+                    Balance:
+                </span>
+                <span class="balance_quantity">
+                    0
+                </span>
+                <select class="currency_selection">
+                    <option class="currency" value="BYN">BYN</option>
+                    <option class="currency" value="USD">USD</option>
+                    <option class="currency" value="Euro">Euro</option>
+                    <option class="currency" value="RUB">RUB</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_section1">
+            <div class="section1_wrapper">
+                <div class="income_button">
+                    доход
+                </div>
+                <div class="consumption_button">
+                    расход
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="wrapper_meme">
+                    <img class="meme1" src="img/meme1.jpg" alt="meme">
+                </div>
+                <div class="wrapper_contacts">
+                    <span class="author">Завалей Семён Николаевич</span>
+                    <span class="phone_number">+375 29 320-39-57</span>
+                    <div class="wrapper_social_media_icons">
+                        <img class="social_icons vk_icon" src="img/social_icons1.png" alt="social_icons">
+                        <img class="social_icons instagram_icon" src="img/social_icons2.png" alt="social_icons">
+                        <img class="social_icons tg_icon" src="img/social_icons3.png" alt="social_icons">
+                        <img class="social_icons mail_icon" src="img/social_icons4.png" alt="social_icons">
+                        <img class="social_icons viber_icon" src="img/social_icons5.png" alt="social_icons">
+                    </div>
+                </div>
+                <div class="site_info">2024 financial assistant</div>
+            </footer>
+        </div>
+        <div class="main_section2">
+            <div class="wrapper_filters">
+                <div class="filter1 active">
+                    доходы
+                </div>
+                <div class="filter2 active">
+                    расходы
+                </div>
+                <div class="filter3">
+                    за месяц
+                </div>
+                <div class="filter4">
+                    за год
+                </div>
+                <div class="filter5">
+                    за неделю
+                </div>
+                <div class="filter6 active">
+                    за всё время
+                </div>
+            </div>
+            <div class="wrapper_history">
+                <span class="history_text">История</span>
+                <div class="history" data-simplebar>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
